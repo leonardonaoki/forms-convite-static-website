@@ -1,0 +1,28 @@
+.main-container{        
+    background-image: url(../assets/Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 100vh;                
+    border-radius: .75rem;
+    
+    img{
+        max-width: 2.865rem;
+        max-height: 3rem;
+    }
+    
+    .title{
+        padding-top: 2rem;
+        margin-inline: 2rem;
+        max-width: 21rem;
+        h1{
+            margin-top:1rem;
+            color: var(--pink);        
+        }
+
+        p{
+            color: var(--text-heading);
+        }
+    }
+}

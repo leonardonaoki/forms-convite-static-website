@@ -1,0 +1,17 @@
+#app{
+    display: grid;
+    grid-template-columns: 31.25% 68.75%;
+    gap:1.25rem;
+    background-color: var(--shape-background); 
+}
+
+main{    
+    margin-block: 1.25rem;
+    margin-left: 1.25rem; 
+}
+
+aside{    
+    margin-block: 1.25rem;
+    margin-right: 1.25rem;
+    padding-right:1.25rem;
+}

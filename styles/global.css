@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Brand */
+
+    --brand-light:#59B2FF;
+    --brand-mid:#3487CF;
+    --brand-dark:#1D6FB6;
+
+    /* Accent Colors */
+
+    --purple:#B259FF;
+    --fuschia:#FF59F9;
+    --pink:#FF598B;
+    --orange:#FF8B59;
+    --yellow:#FFCD59;
+    --lime:#E1FF59;
+    --green:#59FF91;
+    --cyan:#59FFF9;
+    --navy:#6A59FF;
+
+    /* Feedback */
+
+    --danger:#FF5959;
+
+    /* Input */
+
+    --input-base:#1C1F21;
+    --input-stroke:#363B40;
+    --input-placeholder:#869198;
+    
+    /* Shape */
+
+    --shape-background:#131516;
+    --shape-body:#212427;
+    --shape-button:#2D3136;
+    --shape-hover:#383D42;
+
+    /* Text */
+
+    --text-body:#C8CDD0;
+    --text-heading:#F9F9F9;    
+
+     /* Fonts */
+    
+     --font-family-leckerli: "Leckerli One", cursive;
+     --font-logo: 2.5rem/normal var(--font-family-leckerli);
+ 
+     --font-family-baloo: "Baloo 2", sans-serif;
+     --font-heading-md: bold 1.75rem/normal var(--font-family-baloo);
+     --font-heading-sm: bold 1.125rem/normal var(--font-family-baloo);
+ 
+     --font-family-opensans: "Open Sans", sans-serif;
+     --font-body-md: 1rem/normal var(--font-family-opensans);
+     --font-body-sm: .875rem/normal var(--font-family-opensans);
+     --font-body-xs: .75rem/normal var(--font-family-opensans);
+}
+
+.logo{
+    font: var(--font-logo);
+}
+
+.heading-md{
+    font:var(--font-heading-md);
+}
+
+.heading-sm{
+    font: var(--font-heading-sm);
+}
+
+.body-md{
+    font:var(--font-body-md);
+}
+
+.body-sm{
+    font:var(--font-body-sm);
+}
+
+.body-xs{
+    font:var(--font-body-xs);
+}
+
+.semibold{
+    font-weight: 600;
+}
+
+#brandlight{
+    background-color: var(--brand-light);
+}
+#navy{
+    background-color: var(--navy);
+}
+#purple{
+    background-color: var(--purple);
+}
+#fuschia{
+    background-color: var(--fuschia);
+}
+#pink{
+    background-color: var(--pink);
+}
+#danger{
+    background-color: var(--danger);
+}
+#orange{
+    background-color: var(--orange);
+}
+#yellow{
+    background-color: var(--yellow);
+}
+#lime{
+    background-color: var(--lime);
+}
+#green{
+    background-color: var(--green);
+}
+#cyan{
+    background-color: var(--cyan);
+}
